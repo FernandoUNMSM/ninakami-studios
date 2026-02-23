@@ -1,0 +1,32 @@
+<svg width="62" height="64" viewBox="0 0 62 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2_125)">
+<line y1="-0.5" x2="44.9666" y2="-0.5" transform="matrix(0.710654 -0.703542 0.702498 0.711685 30.9531 63.7278)" stroke="white"/>
+<line y1="-0.5" x2="44.9666" y2="-0.5" transform="matrix(0.708838 0.705372 -0.704331 0.709872 -0.959198 32.0508)" stroke="white"/>
+<line y1="-0.5" x2="44.9666" y2="-0.5" transform="matrix(0.710654 -0.703542 0.702498 0.711685 31.0443 54.6359)" stroke="white"/>
+<line y1="-0.5" x2="44.9666" y2="-0.5" transform="matrix(0.710652 0.703544 -0.7025 0.711683 -0.908768 23)" stroke="white"/>
+<line y1="-0.5" x2="44.9666" y2="-0.5" transform="matrix(0.710654 -0.703542 0.702498 0.711685 31.0443 43.6359)" stroke="white"/>
+<line y1="-0.5" x2="44.9666" y2="-0.5" transform="matrix(0.710652 0.703544 -0.7025 0.711683 -0.908768 12)" stroke="white"/>
+<circle cy="57" r="3" fill="white"/>
+<circle cx="62" cy="57" r="3" fill="white"/>
+<line y1="32.5" x2="62" y2="32.5" stroke="white"/>
+</g>
+<g clip-path="url(#clip1_2_125)">
+<line y1="-0.5" x2="44.9666" y2="-0.5" transform="matrix(-0.710654 0.703542 -0.702498 -0.711685 31.0469 0.272163)" stroke="white"/>
+<line y1="-0.5" x2="44.9666" y2="-0.5" transform="matrix(-0.708838 -0.705372 0.704331 -0.709872 62.9592 31.9492)" stroke="white"/>
+<line y1="-0.5" x2="44.9666" y2="-0.5" transform="matrix(-0.710654 0.703542 -0.702498 -0.711685 30.9557 9.36406)" stroke="white"/>
+<line y1="-0.5" x2="44.9666" y2="-0.5" transform="matrix(-0.710652 -0.703544 0.7025 -0.711683 62.9088 41)" stroke="white"/>
+<line y1="-0.5" x2="44.9666" y2="-0.5" transform="matrix(-0.710654 0.703542 -0.702498 -0.711685 30.9557 20.3641)" stroke="white"/>
+<line y1="-0.5" x2="44.9666" y2="-0.5" transform="matrix(-0.710652 -0.703544 0.7025 -0.711683 62.9088 52)" stroke="white"/>
+<circle cx="62" cy="7" r="3" transform="rotate(-180 62 7)" fill="white"/>
+<circle cy="7" r="3" transform="rotate(-180 0 7)" fill="white"/>
+<line x1="62" y1="31.5" y2="31.5" stroke="white"/>
+</g>
+<defs>
+<clipPath id="clip0_2_125">
+<rect width="62" height="32" fill="white" transform="translate(0 32)"/>
+</clipPath>
+<clipPath id="clip1_2_125">
+<rect width="62" height="32" fill="white" transform="matrix(-1 0 0 -1 62 32)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./assets/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ninakami Studios</title>
+  <link rel="stylesheet" href="./src/style.scss" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Cinzel:wght@400..900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="page">
+    <div class="wrapper">
+      <header class="header" id="header">
+        <div class="logo">
+          <img loading="lazy" src="./assets/Frame 2.svg" alt="Ninakami-W" />
+        </div>
+        <nav>
+          <ul>
+            <li class="nav-item">INICIO</li>
+            <li class="nav-item">ACERCA DE NOSOTROS</li>
+            <li class="nav-item">ACADEMIA</li>
+            <li class="nav-item">UNETENOS</li>
+          </ul>
+        </nav>
+        <div class="social-options-container">
+          <div class="social-options">
+            <div class="instagram">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M5.7381 1C3.12132 1 1 3.12132 1 5.7381V16.2143C1 18.8311 3.12132 20.9524 5.7381 20.9524H16.2143C18.8311 20.9524 20.9524 18.8311 20.9524 16.2143V5.7381C20.9524 3.12132 18.8311 1 16.2143 1H5.7381ZM0 5.7381C0 2.56903 2.56903 0 5.7381 0H16.2143C19.3833 0 21.9524 2.56903 21.9524 5.7381V16.2143C21.9524 19.3833 19.3833 21.9524 16.2143 21.9524H5.7381C2.56903 21.9524 0 19.3833 0 16.2143V5.7381ZM11.5628 7.28011C10.795 7.16625 10.0108 7.2974 9.32179 7.65492C8.63278 8.01243 8.07404 8.5781 7.72505 9.27147C7.37606 9.96483 7.25459 10.7506 7.37791 11.517C7.50123 12.2834 7.86307 12.9913 8.41195 13.5402C8.96084 14.0891 9.66882 14.451 10.4352 14.5743C11.2016 14.6976 11.9873 14.5761 12.6807 14.2271C13.3741 13.8781 13.9398 13.3194 14.2973 12.6304C14.6548 11.9414 14.7859 11.1572 14.6721 10.3893C14.5559 9.6061 14.191 8.88099 13.6311 8.32111C13.0712 7.76122 12.3461 7.39625 11.5628 7.28011ZM8.86122 6.76729C9.73693 6.3129 10.7336 6.14621 11.7095 6.29093C12.705 6.43854 13.6266 6.9024 14.3382 7.614C15.0498 8.3256 15.5136 9.24719 15.6613 10.2427C15.806 11.2186 15.6393 12.2153 15.1849 13.091C14.7305 13.9667 14.0116 14.6768 13.1303 15.1204C12.2491 15.5639 11.2504 15.7183 10.2763 15.5616C9.30229 15.4048 8.40246 14.945 7.70485 14.2473C7.00723 13.5497 6.54735 12.6499 6.39061 11.6758C6.23387 10.7018 6.38826 9.70312 6.83182 8.82188C7.27537 7.94063 7.98551 7.22168 8.86122 6.76729ZM16.7381 4.71429C16.462 4.71429 16.2381 4.93814 16.2381 5.21429C16.2381 5.49043 16.462 5.71429 16.7381 5.71429H16.7481C17.0242 5.71429 17.2481 5.49043 17.2481 5.21429C17.2481 4.93814 17.0242 4.71429 16.7481 4.71429H16.7381Z"
+                  fill="white" />
+              </svg>
+            </div>
+            <div class="youtube">
+              <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M28.4134 5.13066C28.2622 4.5167 27.9543 3.95417 27.5208 3.49988C27.0873 3.04559 26.5435 2.71563 25.9444 2.54334C23.7554 2 14.9995 2 14.9995 2C14.9995 2 6.2436 2 4.05463 2.59508C3.45552 2.76738 2.91175 3.09734 2.47824 3.55163C2.04473 4.00591 1.73684 4.56845 1.58566 5.18241C1.18505 7.44056 0.989086 9.73132 1.00024 12.0259C0.985959 14.3377 1.18193 16.6459 1.58566 18.9211C1.75233 19.516 2.06712 20.0571 2.49962 20.4922C2.93212 20.9273 3.4677 21.2417 4.05463 21.4049C6.2436 22 14.9995 22 14.9995 22C14.9995 22 23.7554 22 25.9444 21.4049C26.5435 21.2326 27.0873 20.9027 27.5208 20.4484C27.9543 19.9941 28.2622 19.4316 28.4134 18.8176C28.8109 16.5764 29.0068 14.3031 28.9988 12.0259C29.0131 9.71404 28.8171 7.40582 28.4134 5.13066V5.13066Z"
+                  stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M12 16L20 12L12 8V16Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="facebook">
+              <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.5 0.5H9.22727C7.78064 0.5 6.39325 1.07946 5.37033 2.11091C4.3474 3.14236 3.77273 4.54131 3.77273 6V9.3H0.5V13.7H3.77273V22.5H8.13636V13.7H11.4091L12.5 9.3H8.13636V6C8.13636 5.70826 8.2513 5.42847 8.45588 5.22218C8.66047 5.01589 8.93795 4.9 9.22727 4.9H12.5V0.5Z"
+                  stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="linkedin">
+              <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M1.04785 2.75005C1.04785 1.80912 1.80675 1.05005 2.73833 1.05005C3.66991 1.05005 4.4288 1.80912 4.4288 2.75005C4.4288 3.69098 3.66991 4.45005 2.73833 4.45005C1.80675 4.45005 1.04785 3.69098 1.04785 2.75005ZM2.73833 0.0500488C1.25038 0.0500488 0.0478516 1.26093 0.0478516 2.75005C0.0478516 4.23917 1.25038 5.45005 2.73833 5.45005C4.22628 5.45005 5.4288 4.23917 5.4288 2.75005C5.4288 1.26093 4.22628 0.0500488 2.73833 0.0500488ZM15.8812 7.65005C14.2716 7.65005 12.7276 8.2922 11.5888 9.43593C10.4499 10.5797 9.80976 12.1315 9.80976 13.75V20.9501H13.1907V13.75C13.1907 13.0347 13.4736 12.3481 13.978 11.8416C14.4824 11.335 15.1669 11.05 15.8812 11.05C16.5954 11.05 17.28 11.335 17.7844 11.8416C18.2887 12.3481 18.5717 13.0347 18.5717 13.75V20.9501H21.9526V13.75C21.9526 12.1315 21.3124 10.5797 20.1736 9.43593C19.0348 8.2922 17.4907 7.65005 15.8812 7.65005ZM15.8812 6.65005C14.005 6.65005 12.2061 7.39861 10.8802 8.73036C9.55426 10.062 8.80976 11.8677 8.80976 13.75V21.4501C8.80976 21.7262 9.03361 21.9501 9.30976 21.9501H13.6907C13.9669 21.9501 14.1907 21.7262 14.1907 21.4501V13.75C14.1907 13.2985 14.3693 12.8658 14.6866 12.5472C15.0038 12.2286 15.4335 12.05 15.8812 12.05C16.3288 12.05 16.7586 12.2286 17.0758 12.5472C17.393 12.8658 17.5717 13.2985 17.5717 13.75V21.4501C17.5717 21.7262 17.7955 21.9501 18.0717 21.9501H22.4526C22.7288 21.9501 22.9526 21.7262 22.9526 21.4501V13.75C22.9526 11.8677 22.2081 10.062 20.8822 8.73036C19.5562 7.39861 17.7573 6.65005 15.8812 6.65005ZM0.0478516 8.25005C0.0478516 7.97391 0.271709 7.75005 0.547852 7.75005H4.9288C5.20495 7.75005 5.4288 7.97391 5.4288 8.25005V21.4501C5.4288 21.7262 5.20495 21.9501 4.9288 21.9501H0.547852C0.271709 21.9501 0.0478516 21.7262 0.0478516 21.4501V8.25005ZM1.04785 8.75005V20.9501H4.4288V8.75005H1.04785Z"
+                  fill="white" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="hero">
+        <div class="firstBorder"></div>
+        <div class="secondBorder"></div>
+        <div class="hero-content">
+          <div class="title">
+            <h1 class="title-name">APUKUNAPA KUTIMUYNIN</h1>
+            <p class="subtitle">EL REGRESO DE LOS DIOSES</p>
+          </div>
+        </div>
+      </div>
+      <div class="anime-info-section">
+        <div class="anime-info-section-container">
+          <div class="tag">Nuestro proyecto</div>
+          <div class="anime-info-content">
+            <div class="anime-info-information">
+              <p><span>Apukunapa Kutimuynin</span> ("El regreso de los Apus") es nuestra primera gran producción animada.</p>
+              <p>Apukunapa Kutimuynin <span>narra la historia de Sisa</span>, una joven que se ve arrastrada al centro de un conflicto ancestral cuando las divinidades andinas regresan para reclamar su lugar en el mundo moderno. <span>Acompañada por Nina</span>, la diosa del fuego, deberá evitar una catástrofe espiritual y física.</p>
+              <p>El proyecto busca <span>recuperar formas de expresión visual propias del Perú y Sudamérica</span>, reinterpretadas a través del lenguaje del anime.</p>
+            </div>
+            <div class="anime-info-poster">
+              <figure>
+                <img loading="lazy" src="./assets/poster2.jpg" alt="">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="character-section">
+        <div class="tag">Nuestros personajes</div>
+        <div class="character-container">
+          <div class="character-selector">
+            <div class="character character-selector-item"></div>
+            <div class="character character-selector-item"></div>
+            <div class="character character-selector-item"></div>
+          </div>
+          <div class="character-info">
+            <div class="character-item character-nina">
+              <div class="character-image"></div>
+              <div class="character-information">
+                <h2>NINA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, hic.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nemo consectetur, officia pariatur,
+                  accusamus ad ullam labore laudantium cumque deserunt dolorum delectus aliquam illo tempora, incidunt
+                  nihil sint aperiam et doloribus assumenda temporibus. Dolore, veniam provident necessitatibus est
+                  maxime quod officiis numquam saepe? Odit reiciendis consequuntur sunt doloribus quisquam excepturi!
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellat deleniti odit asperiores ipsum
+                  inventore, ducimus aliquam rerum illo harum pariatur sit excepturi, a, quasi eaque consequuntur
+                  doloremque magni esse quae optio. Libero eos earum magnam esse voluptatibus dolor eveniet quas maxime
+                  eaque animi! Consequatur natus repellendus ab quisquam, molestias cumque debitis repudiandae odit
+                  m modi, provident porro minima
+                  officiis repellat nostrum voluptatibus asperiores sit voluptates reprehenderit! Dolorem!</p>
+              </div>
+            </div>
+            <div class="character-item character-illapa">
+              <div class="character-image"></div>
+              <div class="character-information">
+                <h2>ILLAPA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, hic.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nemo consectetur, officia pariatur,
+                  accusamus ad ullam labore laudantium cumque deserunt dolorum delectus aliquam illo tempora, incidunt
+                  nihil sint aperiam et doloribus assumenda temporibus. Dolore, veniam provident necessitatibus est
+                  maxime quod officiis numquam saepe? Odit reiciendis consequuntur sunt doloribus quisquam excepturi!
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellat deleniti odit asperiores ipsum
+                  inventore, ducimus aliquam rerum illo harum pariatur sit excepturi, a, quasi eaque consequuntur
+                  doloremque magni esse quae optio. Libero eos earum magnam esse voluptatibus dolor eveniet quas maxime
+                  eaque animi! Consequatur natus repellendus ab quisquam, molestias cumque debitis repudiandae odit
+                  m modi, provident porro minima
+                  officiis repellat nostrum voluptatibus asperiores sit voluptates reprehenderit! Dolorem!</p>
+              </div>
+            </div>
+            <div class="character-item character-teresa">
+              <div class="character-image"></div>
+              <div class="character-information">
+                <h2>TERESA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, hic.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nemo consectetur, officia pariatur,
+                  accusamus ad ullam labore laudantium cumque deserunt dolorum delectus aliquam illo tempora, incidunt
+                  nihil sint aperiam et doloribus assumenda temporibus. Dolore, veniam provident necessitatibus est
+                  maxime quod officiis numquam saepe? Odit reiciendis consequuntur sunt doloribus quisquam excepturi!
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellat deleniti odit asperiores ipsum
+                  inventore, ducimus aliquam rerum illo harum pariatur sit excepturi, a, quasi eaque consequuntur
+                  doloremque magni esse quae optio. Libero eos earum magnam esse voluptatibus dolor eveniet quas maxime
+                  eaque animi! Consequatur natus repellendus ab quisquam, molestias cumque debitis repudiandae odit
+                  m modi, provident porro minima
+                  officiis repellat nostrum voluptatibus asperiores sit voluptates reprehenderit! Dolorem!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="timeline">
+        <div class="tag">Nuestro recorrido</div>
+        <div class="timeline-scroll-container">
+          <div class="timeline-line"></div>
+          <div class="timeline-item">
+            <div class="dot bottom"></div>
+            <div class="content bottom">
+              <p class="timeline-item-year">1 de Enero de 2022</p>
+              <div class="separator"></div>
+              <p class="timeline-item-info">olor inventore ips maiores impedit?olor inventore ips maiores impeditolor
+                inventore ips maiores impeditolor inventore ips maiores impeditolor inventore ips maiores impedit</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot top"></div>
+            <div class="content top">
+              <p class="timeline-item-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                dignissimos!em ipsum dolor sit amet consectetur adipisicing elit. Cem ipsum dolor sit amet consectetur
+                adipisicing elit. Cem ipsum dolor sit amet consectetur adipisicing elit. Cem ipsum dolor sit amet
+                consectetur adipisicing elit. C</p>
+              <div class="separator"></div>
+              <p class="timeline-item-year">3 de junio de 2023</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot bottom"></div>
+            <div class="content bottom">
+              <p class="timeline-item-year">2 de marzo de 2023</p>
+              <div class="separator"></div>
+              <p class="timeline-item-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                dignissimos!</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot top"></div>
+            <div class="content top">
+              <p class="timeline-item-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis facere
+                nostrum a consequuneniti temporibus quas eveniet, praesentium, eos ut laudantium dolores eum rerum minus
+                corrupti velit ad ratione? Consequuntur dolore iste optio assumenda, obcaecati fugit, sequi nesciunt
+                tenetur ullam officia in error?</p>
+              <div class="separator"></div>
+              <p class="timeline-item-year">2020</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot bottom"></div>
+            <div class="content bottom">
+              <p class="timeline-item-year">2020</p>
+              <div class="separator"></div>
+              <p class="timeline-item-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                dignissimos!</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot top"></div>
+            <div class="content top">
+              <p class="timeline-item-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                dignissimos!</p>
+              <div class="separator"></div>
+              <p class="timeline-item-year">2020</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot bottom"></div>
+            <div class="content bottom">
+              <p class="timeline-item-year">2020</p>
+              <div class="separator"></div>
+              <p class="timeline-item-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                dignissimos!</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot top"></div>
+            <div class="content top">
+              <p class="timeline-item-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                dignissimos!</p>
+              <div class="separator"></div>
+              <p class="timeline-item-year">2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="intersection"></div>
+      <div class="fundadores-section">
+        <div class="fundadores-section-container">
+          <div class="title">
+            <div class="tag">Nuestros fundadores</div>
+            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio magni, laudantium consectetur cumque quos
+              assumenda!</h3>
+          </div>
+          <div class="fundadores-content">
+            <div class="first-float-text">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo odit neque tempora laudantium aperiam.
+                Blanditiis quam labore molestiae veniam dolore.</p>
+            </div>
+            <div class="fundadores-photos">
+              <div class="fundadores-item fundadores-dafne">
+                <figure></figure>
+                <p>DAFNE DE VINATEA</p>
+              </div>
+              <div class="fundadores-item fundadores-omar">
+                <figure></figure>
+                <p>OMAR VALLEJOS</p>
+              </div>
+              <div class="fundadores-item fundadores-sol">
+                <figure></figure>
+                <p>SOL FERRARI</p>
+              </div>
+            </div>
+            <div class="fundadores-metas">
+              <div class="fundadores-metas-item">
+                <div class="icon">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="48" height="48" rx="24" fill="#1A2850"></rect>
+                    <path
+                      d="M13.9341 24.7909C15.0008 24.7909 15.8685 23.9228 15.8685 22.8566V17.1868C15.8685 16.1201 15.0008 15.2524 13.9341 15.2524C12.8674 15.2524 11.9998 16.1201 11.9998 17.1868V22.8566C11.9998 23.9228 12.8674 24.7909 13.9341 24.7909Z"
+                      fill="#75a595"></path>
+                    <path
+                      d="M34.9353 23.6037C32.9323 20.3487 33.0668 20.5595 32.9656 20.4217C32.341 19.5589 31.3214 19.0322 30.2487 19.0322H21.4938C20.6878 19.0322 20.0321 19.6879 20.0321 20.494C20.0321 22.6028 21.7475 24.3182 23.8564 24.3182H30.4714C30.7074 24.3182 30.8996 24.5099 30.8996 24.7464C30.8996 24.983 30.7074 25.1746 30.4714 25.1746C26.2783 25.1746 22.8673 28.5857 22.8673 32.7788C22.8673 33.0148 22.6756 33.207 22.4391 33.207C22.2025 33.207 22.0109 33.0148 22.0109 32.7788C22.0109 29.4421 23.9517 26.5513 26.7638 25.1746H23.8564C22.7554 25.1746 21.7416 24.7925 20.9415 24.1534C19.5823 25.0618 17.7278 24.8312 16.6397 23.5427C16.1169 25.602 13.5478 26.3578 11.9998 24.8658V28.5263C11.9998 33.5008 16.0467 37.5478 21.0212 37.5478H26.6915C31.6661 37.5478 35.713 33.5008 35.713 28.5263V26.3511C35.713 25.3806 35.4438 24.4306 34.9353 23.6037Z"
+                      fill="#75a595"></path>
+                    <path
+                      d="M20.3045 23.5398C19.6012 22.7203 19.1757 21.6563 19.1757 20.4943C19.1757 19.2692 20.1463 18.1762 21.5383 18.1762V15.2971C21.5383 13.9697 20.4587 12.8901 19.1313 12.8901C17.8022 12.8901 16.7249 13.9658 16.7249 15.2971V21.439C16.7249 23.2852 18.7198 24.4286 20.3045 23.5398Z"
+                      fill="#75a595"></path>
+                    <path
+                      d="M27.2079 13.4071C27.2079 11.2768 24.6118 10.1927 23.0994 11.705C22.645 12.1595 22.3945 12.7637 22.3945 13.4071V18.1761H27.2079V13.4071Z"
+                      fill="#75a595"></path>
+                    <path
+                      d="M32.8776 19.1024V13.407C32.8776 12.0796 31.798 11 30.4712 11C29.1414 11 28.0642 12.0757 28.0642 13.407V18.176H30.2485C31.2114 18.176 32.1401 18.5142 32.8776 19.1024Z"
+                      fill="#75a595"></path>
+                  </svg>
+                </div>
+                <p>De esta mezcla nacio Ninakami: 3 mentes con el objetivo de llevar nuestra cultura al mundo</p>
+              </div>
+              <div class="fundadores-metas-item">
+                <div class="icon">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="48" height="48" rx="24" fill="#1A2850"></rect>
+                    <path
+                      d="M32.1667 37.792V33.9587C32.1667 33.4297 31.7373 33.0004 31.2083 33.0004H30.25V29.3242L33.0972 30.0363C34.2338 30.3199 35.0848 31.2658 35.2467 32.4263L36 37.792H32.1667Z"
+                      fill="#75a595"></path>
+                    <path
+                      d="M16.8333 33.9587V37.792H13L13.7532 32.4263C13.9162 31.2658 14.7662 30.3209 15.9028 30.0363L18.75 29.3242V33.0004H17.7917C17.2627 33.0004 16.8333 33.4297 16.8333 33.9587Z"
+                      fill="#75a595"></path>
+                    <path
+                      d="M31.6875 16.7083C31.6875 17.2373 31.2581 17.6666 30.7291 17.6666H18.2708C17.7418 17.6666 17.3125 17.2373 17.3125 16.7083C17.3125 16.1793 17.7418 15.75 18.2708 15.75H18.4443C18.82 14.1611 19.8147 12.8223 21.1458 11.9636V13.1146C21.1458 13.5113 21.4678 13.8333 21.8646 13.8333C22.2613 13.8333 22.5833 13.5113 22.5833 13.1146C22.5833 13.1146 22.5833 11.0551 22.5833 10.9583C22.5833 10.4293 23.0126 10 23.5416 10H25.4583C25.9873 10 26.4166 10.4293 26.4166 10.9583C26.4166 10.8242 26.4166 12.9718 26.4166 13.1146C26.4166 13.5113 26.7386 13.8333 27.1354 13.8333C27.5321 13.8333 27.8541 13.5113 27.8541 13.1146V11.9636C29.1862 12.8223 30.18 14.1611 30.5557 15.75H30.7291C31.2581 15.75 31.6875 16.1793 31.6875 16.7083Z"
+                      fill="#75a595"></path>
+                    <path
+                      d="M20.6669 34.9168C20.6669 35.4458 20.2376 35.8752 19.7086 35.8752C19.1796 35.8752 18.7502 35.4458 18.7502 34.9168C18.7502 34.3878 19.1796 33.9585 19.7086 33.9585C20.2376 33.9585 20.6669 34.3878 20.6669 34.9168Z"
+                      fill="#75a595"></path>
+                    <path
+                      d="M30.2502 34.9168C30.2502 35.4458 29.8208 35.8752 29.2918 35.8752C28.7628 35.8752 28.3335 35.4458 28.3335 34.9168C28.3335 34.3878 28.7628 33.9585 29.2918 33.9585C29.8208 33.9585 30.2502 34.3878 30.2502 34.9168Z"
+                      fill="#75a595"></path>
+                    <path
+                      d="M27.375 27.6696V27.177C29.0751 26.9585 31.0933 26.2388 32.0028 25.4817C32.1044 25.3974 32.1206 25.2517 32.0584 25.1357C31.0674 23.2919 30.4905 21.2698 30.25 19.104H28.3333V20.6373C28.3333 23.2104 25.9787 25.3811 24.5 25.3811C23.0213 25.3811 20.6667 23.2095 20.6667 20.6373V19.104H18.75C18.5095 21.2698 17.9326 23.2919 16.9417 25.1357C16.8794 25.2517 16.8957 25.3974 16.9972 25.4817C17.9077 26.2388 19.9249 26.9585 21.625 27.177V27.6696C21.625 28.2196 21.2503 28.6988 20.7175 28.832L20.6667 28.8454V32.9998H28.3333V28.8454L28.2825 28.833C27.7497 28.6988 27.375 28.2196 27.375 27.6696ZM24.5 29.6456C23.81 29.6456 23.1986 29.2805 22.844 28.7007C22.9801 28.3806 23.0625 28.0347 23.0625 27.6696V26.486C23.5474 26.6978 24.0362 26.8186 24.5 26.8186C24.9638 26.8186 25.4526 26.6978 25.9375 26.486V27.6696C25.9375 28.0347 26.0199 28.3816 26.156 28.7007C25.8014 29.2815 25.189 29.6456 24.5 29.6456Z"
+                      fill="#75a595"></path>
+                  </svg>
+                </div>
+                <p>Con una simple conviccion: elevar el nivel de la industria de animacion latinoamericana</p>
+              </div>
+            </div>
+          </div>
+          <div class="fundadores-last-text">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, iusto! Sunt nisi facilis numquam.
+              Debitis?</p>
+          </div>
+        </div>
+      </div>
+      <div class="proyectos-section">
+        <div class="proyectos-carrousel">
+          <div class="proyectos-carrousel-row">
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/soul_retire.jpg" alt="">
+            </figure>
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/bye.jpg" alt="">
+            </figure>
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/detectives.webp" alt="">
+            </figure>
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/kenshin.webp" alt="">
+            </figure>
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/valkyrie.jpg" alt="">
+            </figure>
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/golpes.jpg" alt="">
+            </figure>
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/kamen.jpg" alt="">
+            </figure>
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/yofukashi.webp" alt="">
+            </figure>
+          </div>
+          <div class="proyectos-carrousel-row">
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/soul_retire.jpg" alt="">
+            </figure>
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/bye.jpg" alt="">
+            </figure>
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/detectives.webp" alt="">
+            </figure>
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/kenshin.webp" alt="">
+            </figure>
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/valkyrie.jpg" alt="">
+            </figure>
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/golpes.jpg" alt="">
+            </figure>
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/kamen.jpg" alt="">
+            </figure>
+            <figure class="proyectos-carrousel-row-item">
+              <img loading="lazy" src="./assets/proyectos/yofukashi.webp" alt="">
+            </figure>
+          </div>
+        </div>
+        <div class="proyectos-subhero">
+          <div class="tag">Nuestros talentos</div>
+          <div class="content">
+            <h3>Para hacer que mas artistas amen esta industria</h3>
+            <div class="">
+              <p>Nuestro equipo de animadores han apoyado en animaciones de primer nivel en Japon</p>
+              <p>Exploramos talentos continuamente, si quieres unirte a NINAKAMI, inscribete en nuestra academia</p>
+            </div>
+            <button>ACADEMIA NINAKAMI</button>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer-background">
+          <div class="footer-logo">
+            <figure>
+              <img loading="lazy" src="./assets/logo.png" alt="">
+            </figure>
+          </div>
+          <div class="footer-nav">
+            <div class="column">
+              <div class="row">
+                <p class="title">NINAKAMI</p>
+                <p>Nuestra mision</p>
+                <p>¿Quienes somos?</p>
+                <p>Blog</p>
+                <p>Contacto</p>
+              </div>
+              <!-- <div class="row">
+                <p class="title">
+
+                </p>
+              </div> -->
+            </div>
+            <div class="column">
+              <div class="row">
+                <p class="title">CONTACTO</p>
+                <p>Correo electronico: contact@ninakami.com</p>
+              </div>
+              <div class="row">
+                <p class="title">NUESTRAS REDES</p>
+                <div class="icons-container">
+                  <div class="instagram">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M5.7381 1C3.12132 1 1 3.12132 1 5.7381V16.2143C1 18.8311 3.12132 20.9524 5.7381 20.9524H16.2143C18.8311 20.9524 20.9524 18.8311 20.9524 16.2143V5.7381C20.9524 3.12132 18.8311 1 16.2143 1H5.7381ZM0 5.7381C0 2.56903 2.56903 0 5.7381 0H16.2143C19.3833 0 21.9524 2.56903 21.9524 5.7381V16.2143C21.9524 19.3833 19.3833 21.9524 16.2143 21.9524H5.7381C2.56903 21.9524 0 19.3833 0 16.2143V5.7381ZM11.5628 7.28011C10.795 7.16625 10.0108 7.2974 9.32179 7.65492C8.63278 8.01243 8.07404 8.5781 7.72505 9.27147C7.37606 9.96483 7.25459 10.7506 7.37791 11.517C7.50123 12.2834 7.86307 12.9913 8.41195 13.5402C8.96084 14.0891 9.66882 14.451 10.4352 14.5743C11.2016 14.6976 11.9873 14.5761 12.6807 14.2271C13.3741 13.8781 13.9398 13.3194 14.2973 12.6304C14.6548 11.9414 14.7859 11.1572 14.6721 10.3893C14.5559 9.6061 14.191 8.88099 13.6311 8.32111C13.0712 7.76122 12.3461 7.39625 11.5628 7.28011ZM8.86122 6.76729C9.73693 6.3129 10.7336 6.14621 11.7095 6.29093C12.705 6.43854 13.6266 6.9024 14.3382 7.614C15.0498 8.3256 15.5136 9.24719 15.6613 10.2427C15.806 11.2186 15.6393 12.2153 15.1849 13.091C14.7305 13.9667 14.0116 14.6768 13.1303 15.1204C12.2491 15.5639 11.2504 15.7183 10.2763 15.5616C9.30229 15.4048 8.40246 14.945 7.70485 14.2473C7.00723 13.5497 6.54735 12.6499 6.39061 11.6758C6.23387 10.7018 6.38826 9.70312 6.83182 8.82188C7.27537 7.94063 7.98551 7.22168 8.86122 6.76729ZM16.7381 4.71429C16.462 4.71429 16.2381 4.93814 16.2381 5.21429C16.2381 5.49043 16.462 5.71429 16.7381 5.71429H16.7481C17.0242 5.71429 17.2481 5.49043 17.2481 5.21429C17.2481 4.93814 17.0242 4.71429 16.7481 4.71429H16.7381Z"
+                        fill="#33554A" />
+                    </svg>
+                  </div>
+                  <div class="youtube">
+                    <svg width="31" height="24" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M28.4134 5.13066C28.2622 4.5167 27.9543 3.95417 27.5208 3.49988C27.0873 3.04559 26.5435 2.71563 25.9444 2.54334C23.7554 2 14.9995 2 14.9995 2C14.9995 2 6.2436 2 4.05463 2.59508C3.45552 2.76738 2.91175 3.09734 2.47824 3.55163C2.04473 4.00591 1.73684 4.56845 1.58566 5.18241C1.18505 7.44056 0.989086 9.73132 1.00024 12.0259C0.985959 14.3377 1.18193 16.6459 1.58566 18.9211C1.75233 19.516 2.06712 20.0571 2.49962 20.4922C2.93212 20.9273 3.4677 21.2417 4.05463 21.4049C6.2436 22 14.9995 22 14.9995 22C14.9995 22 23.7554 22 25.9444 21.4049C26.5435 21.2326 27.0873 20.9027 27.5208 20.4484C27.9543 19.9941 28.2622 19.4316 28.4134 18.8176C28.8109 16.5764 29.0068 14.3031 28.9988 12.0259C29.0131 9.71404 28.8171 7.40582 28.4134 5.13066V5.13066Z"
+                        stroke="#33554A" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M12 16L20 12L12 8V16Z" stroke="#33554A" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <div class="facebook">
+                    <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M12.5 0.5H9.22727C7.78064 0.5 6.39325 1.07946 5.37033 2.11091C4.3474 3.14236 3.77273 4.54131 3.77273 6V9.3H0.5V13.7H3.77273V22.5H8.13636V13.7H11.4091L12.5 9.3H8.13636V6C8.13636 5.70826 8.2513 5.42847 8.45588 5.22218C8.66047 5.01589 8.93795 4.9 9.22727 4.9H12.5V0.5Z"
+                        stroke="#33554A" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <div class="linkedin">
+                    <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M1.04785 2.75005C1.04785 1.80912 1.80675 1.05005 2.73833 1.05005C3.66991 1.05005 4.4288 1.80912 4.4288 2.75005C4.4288 3.69098 3.66991 4.45005 2.73833 4.45005C1.80675 4.45005 1.04785 3.69098 1.04785 2.75005ZM2.73833 0.0500488C1.25038 0.0500488 0.0478516 1.26093 0.0478516 2.75005C0.0478516 4.23917 1.25038 5.45005 2.73833 5.45005C4.22628 5.45005 5.4288 4.23917 5.4288 2.75005C5.4288 1.26093 4.22628 0.0500488 2.73833 0.0500488ZM15.8812 7.65005C14.2716 7.65005 12.7276 8.2922 11.5888 9.43593C10.4499 10.5797 9.80976 12.1315 9.80976 13.75V20.9501H13.1907V13.75C13.1907 13.0347 13.4736 12.3481 13.978 11.8416C14.4824 11.335 15.1669 11.05 15.8812 11.05C16.5954 11.05 17.28 11.335 17.7844 11.8416C18.2887 12.3481 18.5717 13.0347 18.5717 13.75V20.9501H21.9526V13.75C21.9526 12.1315 21.3124 10.5797 20.1736 9.43593C19.0348 8.2922 17.4907 7.65005 15.8812 7.65005ZM15.8812 6.65005C14.005 6.65005 12.2061 7.39861 10.8802 8.73036C9.55426 10.062 8.80976 11.8677 8.80976 13.75V21.4501C8.80976 21.7262 9.03361 21.9501 9.30976 21.9501H13.6907C13.9669 21.9501 14.1907 21.7262 14.1907 21.4501V13.75C14.1907 13.2985 14.3693 12.8658 14.6866 12.5472C15.0038 12.2286 15.4335 12.05 15.8812 12.05C16.3288 12.05 16.7586 12.2286 17.0758 12.5472C17.393 12.8658 17.5717 13.2985 17.5717 13.75V21.4501C17.5717 21.7262 17.7955 21.9501 18.0717 21.9501H22.4526C22.7288 21.9501 22.9526 21.7262 22.9526 21.4501V13.75C22.9526 11.8677 22.2081 10.062 20.8822 8.73036C19.5562 7.39861 17.7573 6.65005 15.8812 6.65005ZM0.0478516 8.25005C0.0478516 7.97391 0.271709 7.75005 0.547852 7.75005H4.9288C5.20495 7.75005 5.4288 7.97391 5.4288 8.25005V21.4501C5.4288 21.7262 5.20495 21.9501 4.9288 21.9501H0.547852C0.271709 21.9501 0.0478516 21.7262 0.0478516 21.4501V8.25005ZM1.04785 8.75005V20.9501H4.4288V8.75005H1.04785Z"
+                        fill="#33554A" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="row">
+                <p class="title">RECURSOS</p>
+                <p>Reclutamiento de talento</p>
+                <p>Reclutamiento de talento</p>
+                <p>Reclutamiento de talento</p>
+              </div>
+            </div>
+            <div class="column image">
+              <figure>
+                <img loading="lazy" src="./assets/Untitled-design-18.png" alt="">
+              </figure>
+            </div>
+          </div>
+          <div class="footer-copy">
+            <div class="left">
+              <p>Aviso legal</p>
+              <p>Politica de privacidad</p>
+            </div>
+            <div class="center">Diseño y desarrollo por CodeSpren Web</div>
+            <div class="right">
+              <p>© 2026 Copyright NINAKAMI. Reservados todos los derechos.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- <div class="stickers-carrousel">
+        <div class="stickers-carrousel-container">
+          <figure class="carrousel-sticker"><img loading="lazy" src="./assets/stickers/CHIBI-Inti-Sticker_49f9cac0-afe5-4359-bb31-f2457f107f81 (1).png" alt=""></figure>
+          <figure class="carrousel-sticker"><img loading="lazy" src="./assets/stickers/CHIBI-Inti-Sticker_49f9cac0-afe5-4359-bb31-f2457f107f81.png" alt=""></figure>
+          <figure class="carrousel-sticker"><img loading="lazy" src="./assets/stickers/CHIBI-Teresa-1-Sticker.png" alt=""></figure>
+          <figure class="carrousel-sticker"><img loading="lazy" src="./assets/stickers/Jarjacha-Durmiendo-StickerUV-ST-JAR003.png" alt=""></figure>
+          <figure class="carrousel-sticker"><img loading="lazy" src="./assets/stickers/Nina-Sticker_-_ST-NIN003.png" alt=""></figure>
+          <figure class="carrousel-sticker"><img loading="lazy" src="./assets/stickers/Supay-Feliz-StickerUV-ST-SUP001.png" alt=""></figure>
+        </div>
+      </div> -->
+      <div class="aa"></div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/ScrollTrigger.min.js"></script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
